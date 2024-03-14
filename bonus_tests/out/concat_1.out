@@ -1,0 +1,2 @@
+element {'type': 'CONCAT', 'value': '++'}
+( 1 2 3 )

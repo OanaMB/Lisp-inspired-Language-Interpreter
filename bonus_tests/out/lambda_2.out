@@ -1,0 +1,25 @@
+element {'type': 'LIST', 'elements': [{'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'y', 'body': {'type': 'LIST', 'elements': [{'type': 'ID', 'value': 'y'}, {'type': 'ID', 'value': 'x'}]}, 'value': {}}, 'value': {}}, {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}, {'type': 'NUMBER', 'value': '3'}]}]}
+element {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'y', 'body': {'type': 'LIST', 'elements': [{'type': 'ID', 'value': 'y'}, {'type': 'ID', 'value': 'x'}]}, 'value': {}}, 'value': {}}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}, {'type': 'NUMBER', 'value': '3'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+element {'type': 'NUMBER', 'value': '3'}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '4'}, {'type': 'NUMBER', 'value': '5'}, {'type': 'NUMBER', 'value': '6'}]}
+element {'type': 'NUMBER', 'value': '4'}
+element {'type': 'NUMBER', 'value': '5'}
+element {'type': 'NUMBER', 'value': '6'}
+interpret_result [{'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'y', 'body': {'type': 'LIST', 'elements': [{'type': 'ID', 'value': 'y'}, {'type': 'ID', 'value': 'x'}]}, 'value': {}}, 'value': {}}, ['1', '2', '3'], ['4', '5', '6']]
+element {'type': 'ID', 'value': 'y'}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}, {'type': 'NUMBER', 'value': '3'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+element {'type': 'NUMBER', 'value': '3'}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '4'}, {'type': 'NUMBER', 'value': '5'}, {'type': 'NUMBER', 'value': '6'}]}
+element {'type': 'NUMBER', 'value': '4'}
+element {'type': 'NUMBER', 'value': '5'}
+element {'type': 'NUMBER', 'value': '6'}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}, {'type': 'NUMBER', 'value': '3'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+element {'type': 'NUMBER', 'value': '3'}
+( ( 4 5 6 ) ( 1 2 3 ) )

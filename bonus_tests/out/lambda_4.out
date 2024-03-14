@@ -1,0 +1,6 @@
+element {'type': 'LIST', 'elements': [{'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'ID', 'value': 'x'}, 'value': {}}, 'value': {}}, {'type': 'NUMBER', 'value': '1'}]}
+element {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'ID', 'value': 'x'}, 'value': {}}, 'value': {}}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+interpret_result [{'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'ID', 'value': 'x'}, 'value': {}}, 'value': {}}, '1', '2']
+2

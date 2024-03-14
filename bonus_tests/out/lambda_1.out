@@ -1,0 +1,12 @@
+element {'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LIST', 'elements': [{'type': 'ID', 'value': 'x'}, {'type': 'ID', 'value': 'x'}]}, 'value': {}}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+interpret_result [{'type': 'LAMBDA', 'id': 'x', 'body': {'type': 'LIST', 'elements': [{'type': 'ID', 'value': 'x'}, {'type': 'ID', 'value': 'x'}]}, 'value': {}}, ['1', '2']]
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+element {'type': 'LIST', 'elements': [{'type': 'NUMBER', 'value': '1'}, {'type': 'NUMBER', 'value': '2'}]}
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+( ( 1 2 ) ( 1 2 ) )

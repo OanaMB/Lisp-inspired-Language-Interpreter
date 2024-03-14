@@ -1,0 +1,11 @@
+element {'type': 'NUMBER', 'value': '1'}
+element {'type': 'NUMBER', 'value': '2'}
+element {'type': 'NUMBER', 'value': '3'}
+element {'type': 'NUMBER', 'value': '4'}
+element {'type': 'NUMBER', 'value': '5'}
+element {'type': 'NUMBER', 'value': '6'}
+element {'type': 'NUMBER', 'value': '7'}
+element {'type': 'NUMBER', 'value': '8'}
+element {'type': 'NUMBER', 'value': '9'}
+element {'type': 'NUMBER', 'value': '10'}
+( 1 2 3 4 5 6 7 8 9 10 )
